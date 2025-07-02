@@ -49,7 +49,7 @@ The tool delivers filtered insights using dynamic calculations and responsive ch
 
 ## 📸 Dashboard Preview
 
-
+![PageView](https://github.com/bartoszsmielowski/Excel_DataScienceSalaryCalculator/blob/main/003%20Multimedia/DataScienceSalaryCalculator_PageView.png)
 
 ---
 
