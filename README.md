@@ -49,12 +49,26 @@ The tool delivers filtered insights using dynamic calculations and responsive ch
 
 ## 📸 Dashboard Preview
 
-![PageView](https://github.com/bartoszsmielowski/Excel_DataScienceSalaryCalculator/blob/main/003%20Multimedia/DataScienceSalaryCalculator_PageView.png)
+> *(Insert screenshots into the `/screenshots` folder and embed here)*  
+> Example:  
+> ![Dashboard Overview](screenshots/dashboard_overview.png)
 
 ---
 
 ## 🧪 Example Formulas
 
 **Median Salary by Role:**
-```excel
-=MEDIAN(IF((Job=selectedJob)*(Country=selectedCountry)*(Type=selectedType)*(Salary<>""), Salary))
+'=MEDIAN(IF((Job=selectedJob)*(Country=selectedCountry)*(Type=selectedType)*(Salary<>""), Salary))'
+
+**Job Type Filter (Unique & Cleaned):**
+'=UNIQUE(FILTER(ScheduleTypeRange, NOT(ISNUMBER(SEARCH("and",ScheduleTypeRange))) * (ScheduleTypeRange<>"") ))'
+
+---
+
+## 🧑‍🏫 About the Project
+This project was developed to demonstrate how Excel can function as a lightweight BI tool — showcasing skills in data manipulation, analytical logic, and intuitive dashboard design without external add-ins.
+
+---
+
+## 🔗 Live Repository
+[Repository](github.com/bartoszsmielowski/Excel_DataScienceSalaryCalculator)
