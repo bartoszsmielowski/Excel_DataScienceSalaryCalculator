@@ -49,18 +49,16 @@ The tool delivers filtered insights using dynamic calculations and responsive ch
 
 ## 📸 Dashboard Preview
 
-> *(Insert screenshots into the `/screenshots` folder and embed here)*  
-> Example:  
-> ![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](https://github.com/bartoszsmielowski/Excel_DataScienceSalaryCalculator/blob/main/003%20Multimedia/DataScienceSalaryCalculator_PageView.png)
 
 ---
 
 ## 🧪 Example Formulas
 
-**Median Salary by Role:**
+**Median Salary by Role:**  
 '=MEDIAN(IF((Job=selectedJob)*(Country=selectedCountry)*(Type=selectedType)*(Salary<>""), Salary))'
 
-**Job Type Filter (Unique & Cleaned):**
+**Job Type Filter (Unique & Cleaned):**  
 '=UNIQUE(FILTER(ScheduleTypeRange, NOT(ISNUMBER(SEARCH("and",ScheduleTypeRange))) * (ScheduleTypeRange<>"") ))'
 
 ---
